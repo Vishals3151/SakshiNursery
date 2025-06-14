@@ -3,8 +3,8 @@ import { BrowserRouter as Router , Routes , Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs'; // adjust the path based on your file structure
-
-
+import ContactUs from './components/COntactUs';
+ 
 const App = () => {
   return (
     <Router>
@@ -14,6 +14,7 @@ const App = () => {
           <Route path="/" element={<h1 className="p-10"><Home /></h1>} />
           <Route path="/about" element={<AboutUs />} />
           {/* Add other routes here */}
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
       </div>
     </Router>

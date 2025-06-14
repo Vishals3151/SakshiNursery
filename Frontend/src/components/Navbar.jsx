@@ -70,7 +70,7 @@ const Navbar = () => {
             </button>
             {showPages && (
               <div className="absolute left-1/2 transform -translate-x-1/2 top-full mt-2 bg-gradient-to-br bg-white text-black rounded-xl shadow-2xl z-10 w-56">
-                <a href="#" className="block px-4 py-2 hover:text-yellow-300">Contact</a>
+                <a href="/contact" className="block px-4 py-2 hover:text-yellow-300">Contact us</a>
                 <Link to="/about" className="block px-4 py-2 hover:text-yellow-300">About us</Link>
                 <a href="#" className="block px-4 py-2 hover:text-yellow-300">Our Delivery</a>
                 <a href="#" className="block px-4 py-2 hover:text-yellow-300">Infrastructure</a>
